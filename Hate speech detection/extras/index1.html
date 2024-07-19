@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Sentiment Analyzer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<section>
+  <div class="container-fluid py-5 px-5">
+    <article id="main" class="content">
+      <div class="container">
+        <h2 class="mt-5">Welcome to the Text Sentiment Analyzer</h2>
+        <p>Enter your text below to analyze its sentiment:</p>
+        <form id="sentiment-form">
+          <div class="form-group">
+            <textarea id="input-text" name="text" class="form-control" rows="6" placeholder="Enter text..."></textarea>
+          </div>
+          <br>
+          <button type="button" id="analyze-btn" class="btn btn-primary">Analyze</button>
+        </form>
+        <div id="sentiment-result" class="mt-3">
+          <!-- Sentiment analysis results will be displayed here -->
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<script>
+    document.getElementById('analyze-btn').addEventListener('click', function() {
+  const inputText = document.getElementById('input-text').value;
+
+  if (inputText.trim() === "") {
+    alert("Please enter some text to analyze.");
+    return;
+  }
+
+  fetch('http://localhost:5000/analyze', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ text: inputText })
+  })
+  .then(response => response.json())
+  .then(data => {
+    const resultDiv = document.getElementById('sentiment-result');
+    if (data.error) {
+      resultDiv.innerHTML = `<p>Error: <strong>${data.error}</strong></p>`;
+    } else {
+      resultDiv.innerHTML = `<p>Sentiment: <strong>${data.sentiment}</strong></p>`;
+    }
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+});
+
+</script>
+</body>
+</html>

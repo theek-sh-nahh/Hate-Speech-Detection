@@ -1,0 +1,268 @@
+
+      <!-- additionals -->
+      <!-- Login Modal -->
+      <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+              <h1 class="fw-bold mb-0 fs-2">Login</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" fdprocessedid="7bj96p"></button>
+            </div>
+      
+            <div class="modal-body p-5 pt-0">
+              <form class="">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com" fdprocessedid="omvt3f">
+                  <label for="floatingInput">Username / Email address / Apple Id</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password" fdprocessedid="exk1fh">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit" fdprocessedid="a0omvr">Login</button>
+                <hr class="my-4">
+                <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit" fdprocessedid="9dl22p">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                  </svg>
+                  Login with Twitter
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit" fdprocessedid="mgktk">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                    <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                  </svg>
+                  Login with Google 
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit" fdprocessedid="gs18pm">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+                  </svg>
+                  Login with Apple
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Signup Modal -->
+      <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+              <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" fdprocessedid="7bj96p"></button>
+            </div>
+      
+            <div class="modal-body p-5 pt-0">
+              <form class="">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com" fdprocessedid="omvt3f">
+                  <label for="floatingInput">Username / Email address / Apple Id</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password" fdprocessedid="exk1fh">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password" fdprocessedid="exk1fh">
+                  <label for="floatingPassword">Confirm Password</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label l4" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>  
+                <button class="w-100 mt-2 btn btn-lg rounded-3 btn-primary" type="submit" fdprocessedid="a0omvr">Sign up</button>
+                <hr class="my-4">
+                <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit" fdprocessedid="9dl22p">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                  </svg>
+                  Sign up with Twitter
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit" fdprocessedid="mgktk">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                    <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                  </svg>
+                  Sign up with Google 
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit" fdprocessedid="gs18pm">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+                  </svg>
+                  Sign up with Apple
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const analyzeBtn = document.getElementById("analyze-btn");
+            const loginModal = new bootstrap.Modal(document.getElementById('staticBackdrop1'));
+    
+            analyzeBtn.addEventListener("click", function() {
+                // Check if user is logged in (you need to implement this logic)
+                const isLoggedIn = false; // Example: Assume user is not logged in
+    
+                if (!isLoggedIn) {
+                    // If user is not logged in, display the login modal
+                    loginModal.show();
+                } else {
+                    // If user is logged in, proceed with text analysis
+                    analyzeText();
+                }
+            });
+    
+            function analyzeText() {
+                // Add your text analysis logic here
+                console.log("Text analysis logic goes here...");
+            }
+        });
+    
+        document.addEventListener("DOMContentLoaded", function() {
+            // Login Modal
+            const loginForm = document.getElementById("login-form");
+            loginForm.addEventListener("submit", function(event) {
+                event.preventDefault(); // Prevent form submission
+    
+                // Validate email
+                const emailInput = document.getElementById("floatingInput");
+                const email = emailInput.value.trim();
+                if (!isValidEmail(email)) {
+                    showError("Please enter a valid email address.");
+                    return;
+                }
+    
+                // Validate password
+                const passwordInput = document.getElementById("floatingPassword");
+                const password = passwordInput.value.trim();
+                if (!password || password.length < 6) {
+                    showError("Password must be at least 6 characters long.");
+                    return;
+                }
+    
+                // If all validations pass, proceed with login
+                // Add your login logic here
+                console.log("Login logic goes here...");
+            });
+    
+            // Signup Modal
+            const signupForm = document.getElementById("signup-form");
+            signupForm.addEventListener("submit", function(event) {
+                event.preventDefault(); // Prevent form submission
+    
+                // Validate email
+                const emailInput = document.getElementById("signup-floatingInput");
+                const email = emailInput.value.trim();
+                if (!isValidEmail(email)) {
+                    showError("Please enter a valid email address.");
+                    return;
+                }
+    
+                // Validate password
+                const passwordInput = document.getElementById("signup-floatingPassword");
+                const password = passwordInput.value.trim();
+                if (!password || password.length < 6) {
+                    showError("Password must be at least 6 characters long.");
+                    return;
+                }
+    
+                // Validate confirm password
+                const confirmPasswordInput = document.getElementById("signup-confirmPassword");
+                const confirmPassword = confirmPasswordInput.value.trim();
+                if (confirmPassword !== password) {
+                    showError("Passwords do not match.");
+                    return;
+                }
+    
+                // Validate terms agreement
+                const termsCheckbox = document.getElementById("invalidCheck");
+                if (!termsCheckbox.checked) {
+                    showError("Please agree to the terms and conditions.");
+                    return;
+                }
+    
+                // If all validations pass, proceed with signup
+                // Add your signup logic here
+                console.log("Signup logic goes here...");
+            });
+    
+            // Function to validate email format
+            function isValidEmail(email) {
+                // Regular expression for email validation
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailRegex.test(email);
+            }
+    
+            // Function to display error message
+            function showError(message) {
+                // Display error message to the user (you can customize this based on your UI)
+                alert(message);
+            }
+        });
+
+        
+    </script>
+    <script>
+      $(document).ready(function() {
+          // Paste your jQuery code here
+          // Login Form Submission
+          $('#loginForm').submit(function(e) {
+              e.preventDefault(); // Prevent form from submitting normally
+              
+              // Get form data
+              var formData = $(this).serialize();
+
+              // Send AJAX request
+              $.ajax({
+                  type: 'POST',
+                  url: 'login.php', // PHP script to handle login
+                  data: formData,
+                  success: function(response) {
+                      // Handle successful login
+                      console.log(response); // Log response from PHP backend
+                      // You can redirect user or perform other actions based on the response
+                  },
+                  error: function(xhr, status, error) {
+                      // Handle error
+                      console.error(error); // Log error
+                  }
+              });
+          });
+
+          // Signup Form Submission
+          $('#signupForm').submit(function(e) {
+              e.preventDefault(); // Prevent form from submitting normally
+              
+              // Get form data
+              var formData = $(this).serialize();
+
+              // Send AJAX request
+              $.ajax({
+                  type: 'POST',
+                  url: 'signup.php', // PHP script to handle signup
+                  data: formData,
+                  success: function(response) {
+                      // Handle successful signup
+                      console.log(response); // Log response from PHP backend
+                      // You can redirect user or perform other actions based on the response
+                  },
+                  error: function(xhr, status, error) {
+                      // Handle error
+                      console.error(error); // Log error
+                  }
+              });
+          });
+      });
+  </script>
